@@ -23,9 +23,12 @@
 		7C6192732AF1419400A047C5 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6192722AF1419400A047C5 /* CourseView.swift */; };
 		7C6192752AF1506000A047C5 /* CourseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6192742AF1506000A047C5 /* CourseButton.swift */; };
 		7C6192772AF154D600A047C5 /* Testfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6192762AF154D600A047C5 /* Testfile.swift */; };
-		7C6192792AF15A8E00A047C5 /* ButtonMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6192782AF15A8E00A047C5 /* ButtonMember.swift */; };
-		7C61927F2AF170F200A047C5 /* CoursePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61927E2AF170F200A047C5 /* CoursePage.swift */; };
+		7C6192792AF15A8E00A047C5 /* CourseSelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6192782AF15A8E00A047C5 /* CourseSelectButton.swift */; };
+		7C61927F2AF170F200A047C5 /* CoursePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61927E2AF170F200A047C5 /* CoursePageView.swift */; };
 		7C6B667D2A598622003C43A6 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B667C2A598622003C43A6 /* CategoryItemView.swift */; };
+		7CE0E4892AF29EDB00941EFF /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0E4882AF29EDB00941EFF /* ButtonStyle.swift */; };
+		7CE0E4C42AF2BC0E00941EFF /* CoursePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0E4C32AF2BC0E00941EFF /* CoursePage.swift */; };
+		7CE0E4C62AF2BDB000941EFF /* CoursePageMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0E4C52AF2BDB000941EFF /* CoursePageMember.swift */; };
 		7CF79F3B2AEFE7E5001AFAB8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF79F3A2AEFE7E5001AFAB8 /* AppView.swift */; };
 		7CF79F3D2AEFEA65001AFAB8 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF79F3C2AEFEA65001AFAB8 /* FooterView.swift */; };
 /* End PBXBuildFile section */
@@ -48,9 +51,12 @@
 		7C6192722AF1419400A047C5 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		7C6192742AF1506000A047C5 /* CourseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseButton.swift; sourceTree = "<group>"; };
 		7C6192762AF154D600A047C5 /* Testfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testfile.swift; sourceTree = "<group>"; };
-		7C6192782AF15A8E00A047C5 /* ButtonMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMember.swift; sourceTree = "<group>"; };
-		7C61927E2AF170F200A047C5 /* CoursePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePage.swift; sourceTree = "<group>"; };
+		7C6192782AF15A8E00A047C5 /* CourseSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSelectButton.swift; sourceTree = "<group>"; };
+		7C61927E2AF170F200A047C5 /* CoursePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePageView.swift; sourceTree = "<group>"; };
 		7C6B667C2A598622003C43A6 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		7CE0E4882AF29EDB00941EFF /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		7CE0E4C32AF2BC0E00941EFF /* CoursePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePage.swift; sourceTree = "<group>"; };
+		7CE0E4C52AF2BDB000941EFF /* CoursePageMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePageMember.swift; sourceTree = "<group>"; };
 		7CF79F3A2AEFE7E5001AFAB8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		7CF79F3C2AEFEA65001AFAB8 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +91,7 @@
 		7C42E0A42A50179100A54F65 /* CodeItCopy1 */ = {
 			isa = PBXGroup;
 			children = (
+				7CE0E4872AF29EC000941EFF /* Utility */,
 				7C42E0BB2A502CEE00A54F65 /* Models */,
 				7C42E0B42A5019E000A54F65 /* Views */,
 				7C42E0A52A50179100A54F65 /* CodeItCopy1App.swift */,
@@ -122,7 +129,8 @@
 				7C42E0C22A50312B00A54F65 /* CategoryMember.swift */,
 				7C1EA6742AEFB28000203954 /* RoadmapItem.swift */,
 				7C1EA6762AEFBB1000203954 /* RoadmapItemList.swift */,
-				7C6192782AF15A8E00A047C5 /* ButtonMember.swift */,
+				7C6192782AF15A8E00A047C5 /* CourseSelectButton.swift */,
+				7CE0E4C52AF2BDB000941EFF /* CoursePageMember.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -144,10 +152,19 @@
 			isa = PBXGroup;
 			children = (
 				7C6192722AF1419400A047C5 /* CourseView.swift */,
+				7C61927E2AF170F200A047C5 /* CoursePageView.swift */,
+				7CE0E4C32AF2BC0E00941EFF /* CoursePage.swift */,
 				7C6192742AF1506000A047C5 /* CourseButton.swift */,
-				7C61927E2AF170F200A047C5 /* CoursePage.swift */,
 			);
 			path = CourseView;
+			sourceTree = "<group>";
+		};
+		7CE0E4872AF29EC000941EFF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7CE0E4882AF29EDB00941EFF /* ButtonStyle.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,18 +240,21 @@
 				7CF79F3B2AEFE7E5001AFAB8 /* AppView.swift in Sources */,
 				7CF79F3D2AEFEA65001AFAB8 /* FooterView.swift in Sources */,
 				7C6192732AF1419400A047C5 /* CourseView.swift in Sources */,
-				7C61927F2AF170F200A047C5 /* CoursePage.swift in Sources */,
+				7C61927F2AF170F200A047C5 /* CoursePageView.swift in Sources */,
 				7C42E0A82A50179100A54F65 /* ContentView.swift in Sources */,
 				7C42E0C12A50310F00A54F65 /* CategoryMenuView.swift in Sources */,
+				7CE0E4C42AF2BC0E00941EFF /* CoursePage.swift in Sources */,
 				7C6B667D2A598622003C43A6 /* CategoryItemView.swift in Sources */,
 				7C1EA6772AEFBB1000203954 /* RoadmapItemList.swift in Sources */,
+				7CE0E4C62AF2BDB000941EFF /* CoursePageMember.swift in Sources */,
 				7C42E0B62A501A2200A54F65 /* HeaderView.swift in Sources */,
 				7C42E0A62A50179100A54F65 /* CodeItCopy1App.swift in Sources */,
 				7C42E0B82A50204000A54F65 /* SearchFieldView.swift in Sources */,
 				7C6192752AF1506000A047C5 /* CourseButton.swift in Sources */,
 				7C1EA6732AEFA8D400203954 /* RoadmapItemView.swift in Sources */,
+				7CE0E4892AF29EDB00941EFF /* ButtonStyle.swift in Sources */,
 				7C6192772AF154D600A047C5 /* Testfile.swift in Sources */,
-				7C6192792AF15A8E00A047C5 /* ButtonMember.swift in Sources */,
+				7C6192792AF15A8E00A047C5 /* CourseSelectButton.swift in Sources */,
 				7C1EA6752AEFB28000203954 /* RoadmapItem.swift in Sources */,
 				7C1EA6532AEEB02B00203954 /* RoadmapView.swift in Sources */,
 				7C42E0BD2A502D0300A54F65 /* CategoryList.swift in Sources */,

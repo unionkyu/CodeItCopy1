@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CourseView: View {
+  @State private var courseData: [CoursePageMember] = pageData1
+  
   var body: some View {
     
     
@@ -17,19 +19,19 @@ struct CourseView: View {
         ZStack {
           
           VStack {
-            VStack(alignment:.center, spacing: 15) {
-              Spacer()
+            VStack(alignment:.center, spacing: 10) {
+              
               Text("어떻게 시작해야할 지 모르겠나요?")
                 .font(.system(size: 16, weight: .medium))
+                .padding(.top, 40)
               
               Text("전문가가 만든 로드맵을 따라가 보세요!")
                 .font(.system(size: 24, weight: .heavy))
-                .padding(.bottom, 22)
+                .padding(.bottom, 10)
               
               CourseButton()
-                .padding(.bottom, 22)
               
-              CoursePage()
+              CoursePageView(coursePages: courseData)
             }
             .background(Color("course_base"))
             .padding(.bottom, -7)

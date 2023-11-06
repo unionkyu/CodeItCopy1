@@ -29,7 +29,7 @@ struct CourseView: View {
                 .font(.system(size: 24, weight: .heavy))
                 .padding(.bottom, 10)
               
-              CourseButton()
+              CourseButton(buttonData: buttonData)
               
               CoursePageView(coursePages: courseData)
             }

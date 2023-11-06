@@ -22,7 +22,6 @@
 		7C42E0C32A50312B00A54F65 /* CategoryMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C42E0C22A50312B00A54F65 /* CategoryMember.swift */; };
 		7C6192732AF1419400A047C5 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6192722AF1419400A047C5 /* CourseView.swift */; };
 		7C6192752AF1506000A047C5 /* CourseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6192742AF1506000A047C5 /* CourseButton.swift */; };
-		7C6192772AF154D600A047C5 /* Testfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6192762AF154D600A047C5 /* Testfile.swift */; };
 		7C6192792AF15A8E00A047C5 /* CourseSelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6192782AF15A8E00A047C5 /* CourseSelectButton.swift */; };
 		7C61927F2AF170F200A047C5 /* CoursePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61927E2AF170F200A047C5 /* CoursePageView.swift */; };
 		7C6B667D2A598622003C43A6 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B667C2A598622003C43A6 /* CategoryItemView.swift */; };
@@ -50,7 +49,6 @@
 		7C42E0C22A50312B00A54F65 /* CategoryMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMember.swift; sourceTree = "<group>"; };
 		7C6192722AF1419400A047C5 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		7C6192742AF1506000A047C5 /* CourseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseButton.swift; sourceTree = "<group>"; };
-		7C6192762AF154D600A047C5 /* Testfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testfile.swift; sourceTree = "<group>"; };
 		7C6192782AF15A8E00A047C5 /* CourseSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSelectButton.swift; sourceTree = "<group>"; };
 		7C61927E2AF170F200A047C5 /* CoursePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePageView.swift; sourceTree = "<group>"; };
 		7C6B667C2A598622003C43A6 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				7CF79F3C2AEFEA65001AFAB8 /* FooterView.swift */,
 				7C61927C2AF16F3F00A047C5 /* HomeView */,
 				7C61927D2AF16F5000A047C5 /* CourseView */,
-				7C6192762AF154D600A047C5 /* Testfile.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,7 +250,6 @@
 				7C6192752AF1506000A047C5 /* CourseButton.swift in Sources */,
 				7C1EA6732AEFA8D400203954 /* RoadmapItemView.swift in Sources */,
 				7CE0E4892AF29EDB00941EFF /* ButtonStyle.swift in Sources */,
-				7C6192772AF154D600A047C5 /* Testfile.swift in Sources */,
 				7C6192792AF15A8E00A047C5 /* CourseSelectButton.swift in Sources */,
 				7C1EA6752AEFB28000203954 /* RoadmapItem.swift in Sources */,
 				7C1EA6532AEEB02B00203954 /* RoadmapView.swift in Sources */,

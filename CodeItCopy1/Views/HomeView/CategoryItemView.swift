@@ -17,7 +17,7 @@ struct CategoryItemView: View {
         .resizable()
         .aspectRatio(contentMode: .fit)
         .frame(width: 70, height: 70)
-        .background(Color("ColorWoongGray"))
+        .background(Color("icon_base"))
         .cornerRadius(15)
         .padding(5)
 

@@ -16,6 +16,12 @@ struct CoursePageMember: Identifiable {
   var topic: String
 }
 
+
+/*
+ 1. pageData 통합필요
+ 2. combine으로 전환 필요
+ 
+ */
 var pageData1: [CoursePageMember] = [
   CoursePageMember(id: 0, title: "HTML/CSS로 웹사이트 \n만들기", image: "html-icon", description:"웹사이트를 만들어 보면서 웹퍼블리싱 \n기초 쌓기", student: "23,232", topic: "토픽 6개"),
   CoursePageMember(id: 1, title: "Python 기초", image: "python-icon", description: "웹 개발,데이터 분석 업무 자동화의 \n첫걸음! 파이썬 기본기 다지기", student: "145,164", topic: "토픽 4개"),
@@ -43,3 +49,4 @@ var pageData4: [CoursePageMember] = [
   CoursePageMember(id: 2, title: "데이터분석,기초에서 \n실전까지", image: "data-icon", description: "데이터를 자유자재로 다루는 능력 키우기\n", student: "233,455", topic: "토픽 14개"),
   CoursePageMember(id: 3, title: "머신러닝", image: "machine-icon", description: "쉽게 배우는 머신러닝! 원리부터 차근차근\n시작하기", student: "196,740", topic: "토픽 12개")
 ]
+
